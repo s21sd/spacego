@@ -11,6 +11,10 @@
     color: #fff;
   }
 
+  .navbar-expand-lg .navbar-nav {
+    border-radius: 32px;
+  }
+
   .navbar .dropdown-menu.fade-down {
     top: 80%;
     transform: rotateX(-75deg);
@@ -34,11 +38,15 @@ body {
   height: 100%;
   /* min-height:400px; */
   background-size: cover;
-  background-image: url(img/background-technology-desktop.jpg);
+  background-image: url(img/newtech.jpg);
   object-fit: contain;
   background-position: center;
   background-repeat: no-repeat;
 
+}
+
+.mylogo {
+  border-radius: 75px;
 }
 
 .container {
@@ -134,35 +142,38 @@ p {
 
 @media screen and (max-width:600px) {
 
-  
-  h1{
+
+  h1 {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
     /* margin-left: 24%; */
-  
-  
+
+
   }
-  h3{
+
+  h3 {
     /* margin-left:45px; */
     text-align: center;
-  
-   }
-  h2{
+
+  }
+
+  h2 {
     font-size: 1rem;
     padding: 2% 5%;
     margin-bottom: 3.5rem;
     text-align: center;
   }
-  p{
+
+  p {
     font-size: 1rem;
     /* text-align: center; */
     margin: 14% -16% 5% 2%;
     padding-right: 3%;
   }
 
-  .rocket-img{
+  .rocket-img {
     height: 100%;
     width: 100%;
   }
-}  
+}

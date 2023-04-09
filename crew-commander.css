@@ -21,6 +21,10 @@
     top: 180%;
   }
 
+  .navbar-expand-lg .navbar-nav {
+    border-radius: 32px;
+  }
+
   .navbar .nav-item:hover .dropdown-menu {
     transition: .3s;
     opacity: 1;
@@ -30,70 +34,81 @@
   }
 }
 
-body{
-    height:100%;
-      /* min-height:400px; */
-      background-size:cover;
-    background-image:url(img/background-crew-desktop.jpg);
-      object-fit: contain;
-      background-position: center;
-      background-repeat: no-repeat;
-     /* overflow: hidden; */
+body {
+  height: 100%;
+  /* min-height:400px; */
+  background-size: cover;
+  background-image: url(img/space.jpg);
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* overflow: hidden; */
 }
+
+.mylogo {
+  border-radius: 75px;
+
+
+}
+
 .container {
-    position: relative;
-    margin: 20px;
+  position: relative;
+  margin: 20px;
 }
 
-.navbar{
-    margin-top: 3%;
+.navbar {
+  margin-top: 3%;
 }
 
-.nav-blur{
-    background-color: rgba(228, 196, 196, 0.397);
-}
- 
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-.nav-item{
-    padding: 0 18px;
-    font-size: 1.2rem;
-    font-family: 'Montserrat-light', sans-serif;
-  
+.nav-blur {
+  background-color: rgba(228, 196, 196, 0.397);
 }
 
-.destination-section{
-    
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    color: #fff;
-    padding: 2% 12%;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light', sans-serif;
 
 }
 
-h1{
-    font-size: 4.5rem;
-    font-weight: bold;
-  
-  }
-  h2{
-    font-size: 2rem;
-    text-align: left;
-    padding: 3% 11%;
-    margin-bottom: 3.5rem;
-  }
-  p{
-    font-size: 1.4rem;
-  }
+.destination-section {
 
-.crew-heading2{
-    text-align: left;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  color: #fff;
+  padding: 2% 12%;
+
 }
-#testimonials{
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: left;
+  padding: 3% 11%;
+  margin-bottom: 3.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.crew-heading2 {
+  text-align: left;
+}
+
+#testimonials {
   /* padding: 7% 15%; */
   text-align: center;
 }
@@ -103,43 +118,46 @@ h1{
 
 @media screen and (max-width:600px) {
 
-  
-h1{
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
 
 
-}
-h3{
-  /* margin-left:45px; */
-  text-align: center;
+  }
 
- }
-h2{
-  font-size: 1rem;
-  padding: 2% 5%;
-  margin-bottom: 3.5rem;
-  text-align: center;
-}
-p{
-  font-size: 1rem;
-  text-align: center;
-}
+  h3 {
+    /* margin-left:45px; */
+    text-align: center;
 
-.crew-img{
-  height: 100%;
-  width: 100%;
-  margin-bottom: 3px;
-  padding-bottom: 30px;
-}
+  }
 
-.carousel-control-prev-icon{
-  margin-top: 500%;
-}
+  h2 {
+    font-size: 1rem;
+    padding: 2% 5%;
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
 
-.carousel-control-next-icon{
-  margin-top: 500%;
-}
-  
+  p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .crew-img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 3px;
+    padding-bottom: 30px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-top: 500%;
+  }
+
+  .carousel-control-next-icon {
+    margin-top: 500%;
+  }
+
 }

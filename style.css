@@ -28,18 +28,28 @@
     top: 100%;
     transform: rotateX(0deg);
   }
+
+  .navbar-expand-lg .navbar-nav {
+    border-radius: 32px;
+  }
 }
 
 body {
   height: 100%;
   /* min-height:400px; */
   background-size: cover;
-  background-image: url(img/background-home-desktop.jpg);
+  background-image: url(img/frontbackpeg.jpeg);
   /* here i just change the background-image and upload the new image from new */
   /* background-image: url(https://cdn.pixabay.com/photo/2016/10/20/18/35/earth-1756274_960_720.jpg); */
   object-fit: contain;
   background-position: center;
   background-repeat: no-repeat;
+
+}
+
+.mylogo {
+  border-radius: 75px;
+
 
 }
 
@@ -53,8 +63,6 @@ body {
 .navbar {
   margin-top: 3%;
   color: #fff;
-  /* visibility: hidden; */
-
   -moz-filter: blur(10px);
   -o-filter: blur(10px);
   -ms-filter: blur(10px);
@@ -80,6 +88,9 @@ body {
 }
 
 .nav-item {
+  /* box-shadow: 2px 2px 5px #eaebf0,
+    -5px -5px 10px #ffffff73; */
+  /* margin: 3px; */
   padding: 0 18px;
   font-size: 1.2rem;
   font-family: 'Montserrat-light', sans-serif;
@@ -100,6 +111,7 @@ body {
 h1 {
   font-size: 4.5rem;
   font-weight: bold;
+  color: black;
 
 }
 
@@ -117,6 +129,8 @@ h2 {
 }
 
 .download-button {
+  box-shadow: 2px 2px 5px #eaebf0,
+    -5px -5px 10px #ffffff73;
   height: 200px;
   width: 200px;
   border-radius: 50%;
@@ -164,4 +178,20 @@ p {
     text-align: center;
   }
 
+}
+
+
+.last-sec {
+  display: flex;
+}
+
+#search {
+  height: 40px;
+  border-radius: 13px;
+
+}
+
+#content {
+  float: right;
+  margin-bottom: 20px;
 }

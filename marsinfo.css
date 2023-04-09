@@ -1,0 +1,169 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        border-radius: 32px;
+    }
+}
+
+body {
+    /* height: 100%; */
+    /* min-height:400px; */
+    background-size: cover;
+    /* background-color: black; */
+    background-image: url(img/mars.jpeg);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.mylogo {
+    border-radius: 75px;
+
+
+}
+
+
+.navbar {
+    margin-top: 3%;
+    color: #fff;
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(0.5px);
+    /* opacity: 0.4; */
+
+}
+
+.nav-blur {
+    background-color: rgba(176, 171, 171, 0.566);
+    color: #fff;
+}
+
+
+
+
+/* navigation bar target */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    /* box-shadow: 2px 2px 5px #eaebf0,
+      -5px -5px 10px #ffffff73; */
+    /* margin: 3px; */
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+
+}
+
+
+/* infomation section */
+
+.mars-information {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+h1 {
+    position: absolute;
+    top: 156px;
+    right: 556px;
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+
+
+
+.mars-data {
+    position: absolute;
+    right: 250px;
+    top: 257px;
+
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+    h1 {
+        position: absolute;
+        top: 19%;
+        right: 23%;
+        font-size: 2rem;
+
+
+    }
+
+    .navbar {
+        margin-top: 1%;
+        color: #fff;
+        filter: blur(0.5px);
+
+    }
+
+    .mylogo {
+        width: 60px;
+        height: 60px;
+        border-radius: 75px;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+        font-size: 1rem;
+        font-family: 'Montserrat-light', sans-serif;
+
+    }
+
+
+
+    .mars-data {
+        width: 359px;
+        height: 466px;
+        position: absolute;
+        right: -2px;
+        top: 233px;
+    }
+
+
+
+}

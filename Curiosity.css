@@ -1,0 +1,179 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        border-radius: 32px;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+
+body {
+    height: 100%;
+    /* min-height:400px; */
+    background-size: cover;
+    background-image: url(img/curoback.webp);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+}
+
+.mylogo {
+    border-radius: 75px;
+
+
+}
+
+.container {
+    position: relative;
+    margin: 20px;
+}
+
+.navbar {
+    margin-top: 3%;
+}
+
+.nav-blur {
+    background-color: rgba(228, 196, 196, 0.397);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+
+}
+
+.destination-section {
+
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #fff;
+    padding: 2% 12%;
+
+}
+
+.info-div {
+    color: black;
+}
+
+.desc {
+    color: azure;
+}
+
+.my-image {
+    width: 450px;
+    height: 450px;
+    margin-left: 130px;
+    border-radius: 34px;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 3% 11%;
+    margin-bottom: 3.5rem;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.crew-heading2 {
+    text-align: left;
+}
+
+#testimonials {
+    /* padding: 7% 15%; */
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+
+
+    h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+
+
+    }
+
+    h3 {
+        /* margin-left:45px; */
+        text-align: center;
+
+    }
+
+    h2 {
+        font-size: 1rem;
+        padding: 2% 5%;
+        margin-bottom: 3.5rem;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .crew-img {
+        height: 100%;
+        width: 94%;
+        margin-bottom: 3px;
+        padding-bottom: 30px;
+        margin-left: 9px;
+    }
+
+    .carousel-control-prev-icon {
+        margin-top: 500%;
+    }
+
+    .carousel-control-next-icon {
+        margin-top: 500%;
+    }
+
+}

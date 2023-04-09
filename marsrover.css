@@ -1,0 +1,165 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        border-radius: 32px;
+    }
+}
+
+body {
+    height: 100%;
+    background-size: cover;
+    background-image: url(img/marsimg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.mylogo {
+    border-radius: 75px;
+
+
+}
+
+
+.navbar {
+    margin-top: 3%;
+    color: #fff;
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(0.5px);
+
+
+}
+
+.nav-blur {
+    background-color: rgba(176, 171, 171, 0.566);
+    color: #fff;
+}
+
+
+
+
+/* navigation bar target */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    /* box-shadow: 2px 2px 5px #eaebf0,
+      -5px -5px 10px #ffffff73; */
+    /* margin: 3px; */
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+
+}
+
+
+/* infomation section */
+.card-deck {
+    margin: 100px;
+}
+
+.mars-information {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7% 15%;
+    color: #fff;
+}
+
+h1 {
+    position: absolute;
+    top: 156px;
+    right: 456px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+
+#search {
+    position: absolute;
+    right: 24%;
+    top: 25%;
+    height: 40px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 5px #eaebf0,
+        -5px -5px 10px #ffffff73;
+
+}
+
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        height: 100%;
+        background-size: cover;
+        background-image: url(img/marsimg.jpg);
+        background-position:top;
+     
+
+    }
+
+    h1 {
+        position: absolute;
+        top: 83px;
+        right: 40px;
+        font-size: 2rem;
+      
+
+    }
+
+
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #search {
+        position: absolute;
+        right: 46%;
+        top: 21%;
+
+    }
+
+}

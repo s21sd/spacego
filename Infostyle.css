@@ -1,0 +1,265 @@
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        border-radius: 32px;
+    }
+}
+
+body {
+    height: 100vh;
+    /* min-height:400px; */
+    /* background-size: cover; */
+    background-color: black;
+    background-image: url(img/aloneapce.jpg);
+    object-fit: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.mylogo {
+    border-radius: 75px;
+
+
+}
+
+.container {
+    position: relative;
+    margin: 20px;
+
+
+}
+
+#content {
+    float: right;
+    margin-bottom: 20px;
+    width: "450px";
+    height: "450px";
+}
+
+.navbar {
+    margin-top: 3%;
+    color: #fff;
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(0.5px);
+    /* opacity: 0.4; */
+
+}
+
+.nav-blur {
+    background-color: rgba(176, 171, 171, 0.566);
+    color: #fff;
+}
+
+
+
+
+/* navigation bar target */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    /* box-shadow: 2px 2px 5px #eaebf0,
+      -5px -5px 10px #ffffff73; */
+    /* margin: 3px; */
+    padding: 0 18px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+
+}
+
+
+/* infomation section */
+
+.information-section {
+    display: flex;
+    position: absolute;
+    background-size: cover;
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7% 15%;
+    color: #fff;
+    height: 500px;
+}
+
+.picture {
+    margin-left: 501px;
+    width: 700px;
+    height: 455px;
+    border-radius: 30px;
+
+}
+
+.explanation {
+    position: absolute;
+    top: 150px;
+    width: 410px;
+    height: 410px;
+    font-size: 1.5rem;
+    overflow: scroll;
+
+}
+
+.explanation::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.explanation {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.child {
+    flex: 0;
+    margin: 40px;
+    width: 700px;
+    bottom: 190px;
+}
+
+
+.innerchild1 {
+    position: absolute;
+    left: 30px;
+    width: 400px;
+    bottom: 90%;
+
+}
+
+.innerchild2 {
+    width: 900px;
+
+}
+
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.info-div {
+    line-height: 1.2rem;
+    text-align: left;
+    padding-top: 5%;
+    font-size: 4.5rem;
+    line-height: 2rem;
+
+}
+
+#search {
+    position: absolute;
+    left: 65px;
+    box-shadow: 2px 2px 5px #eaebf0,
+        -5px -5px 10px #ffffff73;
+    border-radius: 50%;
+    height: 40px;
+    border-radius: 13px;
+    margin-right: 30px;
+
+
+
+
+}
+
+.download-button:hover {
+    background-color: rgb(231, 209, 209);
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+@media screen and (max-width:600px) {
+
+    h1 {
+        font-size: 5rem;
+        font-weight: bold;
+        text-align: center;
+
+
+    }
+
+    h2 {
+        font-size: 1rem;
+        padding: 2% 5%;
+        margin-bottom: 3.5rem;
+        text-align: center;
+    }
+
+    .download-button {
+        margin: 18% 13%;
+
+    }
+
+    p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
+
+
+.last-sec {
+    display: flex;
+}
+
+#search {
+    position: absolute;
+    left: 65px;
+    box-shadow: 2px 2px 5px #eaebf0,
+        -5px -5px 10px #ffffff73;
+    border-radius: 50%;
+    height: 40px;
+    border-radius: 13px;
+
+
+}
+
+#content {
+    float: left;
+    margin-bottom: 20px;
+
+}
